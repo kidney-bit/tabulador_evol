@@ -20,10 +20,10 @@ Use apenas as opções predefinidas abaixo. Se nada se aplica, use "outros".
 Retorne um JSON exatamente neste formato:
 
 {
-  "comorbidades": ["HAS", "DM", "DRC", "outros"],
+  "comorbidades": ["HAS", "DM", "DRC", "ICC", "coronariopatia", "transplante de rim", "outros"],
   "motivo_internacao": ["IRA", "DRC", "Sepse", "Choque", "Descompensação cardiológica", "Acidose metabólica", "outros"],
   "medicamentos_continuos": ["IECA", "BRA", "Diurético", "Insulina", "Antibiótico", "Corticoide", "outros"],
-  "sintomas": ["Dispneia", "Edema", "Oligúria", "Febre", "Dor", "Náusea", "outros"],
+  "sintomas": ["Dispneia", "Tosse", "Disúria", "Edema", "Oligúria", "Febre", "Dor", "Náusea", "outros"],
   "achados_exame_fisico": ["Hipotenso", "Edemaciado", "Taquipneico", "Anúrico", "outros"]
 }
 
